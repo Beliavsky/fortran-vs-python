@@ -593,19 +593,6 @@ int(round())
         </td>
     </tr>
     <tr>
-            <td>to integer division</td>
-        <td>
-<pre lang="fortran">
-i/j
-</pre>
-        </td>
-        <td>
-<pre lang="python">
-i//j
-</pre>
-        </td>
-    </tr>
-    <tr>
         <td>integer to float</td>
         <td>
 <pre lang="fortran">
@@ -1062,6 +1049,19 @@ rewind(unit, ...)
         <td>
 <pre lang="python">
 f.seek(0)
+</pre>
+        </td>
+    </tr>
+    <tr>
+            <td>integer division</td>
+        <td>
+<pre lang="fortran">
+i/j
+</pre>
+        </td>
+        <td>
+<pre lang="python">
+i//j
 </pre>
         </td>
     </tr>
