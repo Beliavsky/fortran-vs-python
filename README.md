@@ -61,6 +61,12 @@ end subroutine my_subroutine
         <td>functions</td>
         <td>
 <pre lang="fortran">
+i/j
+</pre>
+<pre lang="python">
+i//j
+</pre>
+<pre lang="fortran">
 function f(x) result(res)
     res = ...
 end function f
