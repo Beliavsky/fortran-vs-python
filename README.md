@@ -593,15 +593,15 @@ int(round())
         </td>
     </tr>
     <tr>
-            <td>to integer by rounding</td>
+            <td>to integer division</td>
         <td>
 <pre lang="fortran">
-nint()
+i/j
 </pre>
         </td>
         <td>
 <pre lang="python">
-int(round())
+i//j
 </pre>
         </td>
     </tr>
