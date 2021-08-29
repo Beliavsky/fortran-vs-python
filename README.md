@@ -600,6 +600,19 @@ int(round())
         </td>
     </tr>
     <tr>
+            <td>to integer by rounding</td>
+        <td>
+<pre lang="fortran">
+nint()
+</pre>
+        </td>
+        <td>
+<pre lang="python">
+int(round())
+</pre>
+        </td>
+    </tr>
+    <tr>
         <td>integer to float</td>
         <td>
 <pre lang="fortran">
