@@ -54,18 +54,19 @@ subroutine my_subroutine
     ...
 end subroutine my_subroutine
 </pre>
-        </td>
-        <td>Functions that have side effects.</td>
-    </tr>
-    <tr>
-        <td>functions</td>
-        <td>
+        <td>integer division</td>
 <pre lang="fortran">
 i/j
 </pre>
 <pre lang="python">
 i//j
 </pre>
+        </td>
+        <td>Functions that have side effects.</td>
+    </tr>
+    <tr>
+        <td>functions</td>
+        <td>
 <pre lang="fortran">
 function f(x) result(res)
     res = ...
